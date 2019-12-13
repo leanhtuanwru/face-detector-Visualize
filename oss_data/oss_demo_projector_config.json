@@ -1,0 +1,21 @@
+{
+    "embeddings": [
+        {
+            "tensorPath": "oss_data/LFW_128_HA_tensor.bytes",
+            "tensorShape": [
+                8405,
+                128
+            ],
+            "metadataPath": "oss_data/LFW_128_HA_labels.tsv",
+            "tensorName": "LFW2Vec",
+            "sprite": {
+                "imagePath": "oss_data/LFW_HA_sprites.png",
+                "singleImageDim": [
+                    28,
+                    28
+                ]
+            }
+        }
+    ],
+    "modelCheckpointPath": "Visual Vector Embedding"
+}
